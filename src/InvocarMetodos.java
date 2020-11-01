@@ -15,8 +15,8 @@ public class InvocarMetodos {
     }
 
     public void inicio() {
-        escribeHola();
-        escribeAdios();
+        escribeHola(); // Se invoca al método escribeHola
+        escribeAdios(); // Se invoca al método escribeAdios
     }
 
     /*
