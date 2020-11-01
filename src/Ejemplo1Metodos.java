@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Ejemplo1Metodos {
 
-    private String nombre = "Roberto"; //Si la definimo aquí es una variable global,
+    private String nombre = "Roberto"; //Si la definimos aquí es una variable global,
                             // y puede ser accesible desde cualquier parte del programa
 
     public void escribeHola() {
