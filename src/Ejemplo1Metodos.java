@@ -17,15 +17,7 @@ public class Ejemplo1Metodos {
     }
 
     public void inicio() {
-        Scanner scanner = new Scanner(System.in);
-        int numero3 = scanner.nextInt();
-
-        if (numero3 > 0) {
-            int numero1 = scanner.nextInt();
-            int numero2 = scanner.nextInt();
-            System.out.println(numero1 + numero2);
-        }
-
+        escribeHola();
         escribeAdios();
     }
 
