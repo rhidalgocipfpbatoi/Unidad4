@@ -1,6 +1,4 @@
-import java.util.Scanner;
-
-public class Ejemplo1Metodos {
+public class InvocarMetodos {
 
     private String nombre = "Roberto"; //Si la definimos aquí es una variable global,
                             // y puede ser accesible desde cualquier parte del programa
@@ -26,7 +24,7 @@ public class Ejemplo1Metodos {
     Es obligatorio que hagamos un método inicio y que lo invoquemos desde el método main
      */
     public static void main(String[] args) {
-        Ejemplo1Metodos programa = new Ejemplo1Metodos();
+        InvocarMetodos programa = new InvocarMetodos();
         programa.inicio();
     }
 }
